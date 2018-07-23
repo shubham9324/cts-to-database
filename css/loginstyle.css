@@ -1,0 +1,29 @@
+.mystyle{
+	postion:absolute;
+	line-height:100px;
+	font-size:70px;
+	margin-top:10px;
+	margin-left:150px;
+	color:white;
+	border-radius:50%;
+	border:5px solid #fff;
+	height:120px;
+	width:120px;
+	transition: all 0.5s ease;
+}
+
+.mystyle:hover{
+	border:5px solid #0066ff;
+	box-shadow:0 0 15px #0066ff;
+	text-shadow:0 0 15px #0066ff;
+	transition: all 0.5s ease;
+	position:relative;
+	transition: 2s;
+	transform: rotateY(360deg);
+}
+.fas:hover{
+	color:#0066ff;
+	text-shadow:0 0 15px #0066ff;
+	transition: all 0.5s ease;
+	
+}

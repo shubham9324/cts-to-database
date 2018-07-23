@@ -1,0 +1,60 @@
+
+.wrapper {
+		text-align:center;
+	
+	padding-bottom:40px;
+}
+.wrapper small {
+	
+	margin:0px 0px 0px 150px;
+	color:white;
+	padding-bottom:40px;
+	margin-top:50px;
+}
+.wrapper ul li a{
+width:55px;
+height:55px;
+text-align:center;
+line-height:60px;
+background:white;
+border-radius:50%;
+margin:0px 0px 0px 30px;
+border:5px solid white;
+float:left;
+display:block;
+color:white;
+overflow:hidden;
+z-index:1;
+}
+.wrapper ul li a .fab{
+	position:relative;
+	color:#262626;
+	transition: .5s;
+}
+.wrapper ul li a:hover .fab{
+	transform: rotateY(360deg);
+}
+.wrapper ul li:hover .fa-facebook-f{
+     color:#3b5998;
+}
+.wrapper ul li:hover .fa-twitter{
+     color:#00aced;
+}
+.wrapper ul li:hover .fa-instagram{
+     color:#bc2a8d;
+}
+.wrapper ul li:hover .fa-youtube{
+     color:#bb0000;
+}
+.wrapper ul li:hover .fa-google{
+     color:#dd4b39;
+}
+.trans img{
+	position:relative;
+	transition: 2s;
+}
+.trans img:hover{
+	transform: rotateY(360deg);
+}
+
+

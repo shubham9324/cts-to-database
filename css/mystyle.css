@@ -1,0 +1,22 @@
+body html{
+	margin:0;
+	padding:0;
+	
+}
+h1{
+	text-align:center;
+	color:white;
+	
+}
+
+.bgcolocont{
+	margin:60px;
+    padding:30px 30px;
+	width:500px;
+	
+	background:purple;
+}
+.align{
+padding:10px ;width:49%;	
+
+}
